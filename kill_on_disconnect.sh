@@ -1,6 +1,8 @@
 #!/bin/bash
-if [[ $(ifconfig en0 inet | grep "inet") ]]; then
-	:
+if ifconfig en0 inet | grep "inet" ;
+then
+	echo "network up"
 else
-	osascript -e 'quit app "Firefox"'
+	echo "network down"
+	pkill -f Firefox
 fi
