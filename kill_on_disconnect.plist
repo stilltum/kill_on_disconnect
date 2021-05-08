@@ -7,6 +7,6 @@
         <key>Program</key>
 	<string>/Users/username/bin/kill_on_disconnect.sh</string>
 	<key>StartInterval</key>
-	<integer>60</integer>
+	<integer>30</integer>
     </dict>
 </plist>
