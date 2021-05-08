@@ -5,7 +5,7 @@
         <key>Label</key>
         <string>kill_on_disconnect.local</string>
         <key>Program</key>
-	<string>/Users/timblackburn/bin/kill_on_disconnect.sh</string>
+	<string>/Users/username/bin/kill_on_disconnect.sh</string>
 	<key>StartInterval</key>
 	<integer>60</integer>
     </dict>
